@@ -3,6 +3,14 @@
 
 def unique?(str)
   seen = ""
+  
   str.each_char do |chr|
+    if seen.include?(chr)
+      return false
+    else
+      seen << chr
+    end
   end
+
+  true
 end
