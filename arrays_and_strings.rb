@@ -54,4 +54,14 @@ end
 
 def replace_spaces(str)
   new_str = ""
+
+  str.each_char do |chr|
+    if chr == " "
+      new_str << "%20"
+    else
+      new_str << chr
+    end
+  end
+
+  new_str
 end
