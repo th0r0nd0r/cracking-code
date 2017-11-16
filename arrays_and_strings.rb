@@ -49,3 +49,9 @@ def anagrams?(str1, str2)
 
   true
 end
+
+# Write a method to replace all spaces in a string with ‘%20’
+
+def replace_spaces(str)
+  new_str = ""
+end
