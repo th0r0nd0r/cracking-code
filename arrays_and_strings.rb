@@ -19,5 +19,5 @@ end
 # five characters, including the null character.)
 
 def reverse_c_style_string(str)
-  
+  " " + str[1..-1].reverse!
 end
