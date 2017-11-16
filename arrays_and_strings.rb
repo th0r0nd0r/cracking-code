@@ -27,3 +27,7 @@ end
 # An extra copy of the array is not.
 # FOLLOW UP
 # Write the test cases for this method.
+
+def remove_duplicates(str)
+  
+end
