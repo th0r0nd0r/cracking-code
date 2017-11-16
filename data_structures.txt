@@ -11,3 +11,5 @@ heirarchichal data structure in which each node has at most two children.
 Stacks:
 
 LIFO.  like mtg.
+Operations:
+push, pop, peek
