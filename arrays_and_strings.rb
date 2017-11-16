@@ -39,3 +39,13 @@ def remove_duplicates(str)
 end
 
 # Write a method to decide if two strings are anagrams or not
+
+def anagrams?(str1, str2)
+  return false unless str1.length == str2.length
+
+  str1.each_char do |chr|
+    return false unless str2.count(chr) == str1.count(chr)
+  end
+
+  true
+end
