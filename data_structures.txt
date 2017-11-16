@@ -1,0 +1,3 @@
+Linked Lists:
+
+nodes in order, can be singly, doubly, or circularly linked.
