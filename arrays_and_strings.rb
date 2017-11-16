@@ -29,5 +29,11 @@ end
 # Write the test cases for this method.
 
 def remove_duplicates(str)
-  
+  uniques = ""
+
+  str.each_with_index do |ltr, i|
+    uniques << ltr unless str[0..i - 1].include?(ltr)
+  end
+
+  uniques
 end
