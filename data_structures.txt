@@ -22,4 +22,9 @@ Binary Tree with some extras:
 2 - each node must be smaller than its children (for a min heap) or greater than (for a max heap)
 
 
+Hash Set:
+- precursor to hash map
+
+
+
 Hash Map:
