@@ -37,3 +37,6 @@ Steps to use a hash map:
 - to set, add the key (hashed value) and value (actual value) to the appropriate bucket (linked list)
 - to get, check whether the right linked list contains the key you're looking for
 - to delete, remove the key from the list
+
+Why use a hash map?
+- it has an average of O(1) time for search, get, and set
