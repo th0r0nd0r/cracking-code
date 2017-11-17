@@ -34,3 +34,4 @@ Hash Map:
 Steps to use a hash map:
 - hash the item to add (the hashed value will be the key in the linked list)
 - mod by the # of buckets to find which bucket the item belongs in
+- to set, add the key (hashed value) and value (actual value) to the appropriate bucket (linked list)
