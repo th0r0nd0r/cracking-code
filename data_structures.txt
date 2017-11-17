@@ -17,3 +17,6 @@ Operations: enqueue, dequeue, first, last
 
 
 Heaps:
+Binary Tree with some extras:
+1 - it is complete (all levels are full, except the bottom most which must have all data as left as possible)
+2 - 
