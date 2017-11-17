@@ -28,3 +28,5 @@ Hash Set:
 
 
 Hash Map:
+- combines hash set and linked list
+- hash set but buckets are linked lists
