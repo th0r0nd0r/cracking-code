@@ -24,7 +24,7 @@ Binary Tree with some extras:
 
 Hash Set:
 - precursor to hash map
-
+- a resizing int set, with arrays as buckets, but every input gets hashed before entering the set (this lets you use all data types)
 
 
 Hash Map:
