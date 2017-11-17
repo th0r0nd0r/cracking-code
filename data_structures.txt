@@ -40,3 +40,6 @@ Steps to use a hash map:
 
 Why use a hash map?
 - it has an average of O(1) time for search, get, and set
+
+
+LRU Cache:
