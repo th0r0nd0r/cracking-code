@@ -51,4 +51,5 @@ a cache that boots off the least-recently-used item(s)
 - when the cache is full, the oldest items (at the beginning of the list) are removed
 
 
-The problem: Linked lists have O(n) lookup time
+The Problem: Linked lists have O(n) lookup time
+The Solution: use a hash map to store pointers to the items in the linked list
