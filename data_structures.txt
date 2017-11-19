@@ -56,4 +56,4 @@ The Solution: use a hash map to store pointers to the items in the linked list
 
 How it works:
 - The keys in the hash map correspond to the keys in the linked list
-- 
+- the values in the hash map are pointers to the actual items in the linked list
