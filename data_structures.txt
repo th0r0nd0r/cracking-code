@@ -46,3 +46,4 @@ LRU Cache:
 a cache that boots off the least-recently-used item(s)
 
 - built with a combo of a hash map and a linked list (so 2 total linked lists?)
+- cached items are stored in a linked list
