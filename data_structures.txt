@@ -53,3 +53,7 @@ a cache that boots off the least-recently-used item(s)
 
 The Problem: Linked lists have O(n) lookup time
 The Solution: use a hash map to store pointers to the items in the linked list
+
+How it works:
+- The keys in the hash map correspond to the keys in the linked list
+- 
