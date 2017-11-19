@@ -44,3 +44,5 @@ Why use a hash map?
 
 LRU Cache:
 a cache that boots off the least-recently-used item(s)
+
+- built with a combo of a hash map and a linked list
