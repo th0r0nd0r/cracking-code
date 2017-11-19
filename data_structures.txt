@@ -48,3 +48,4 @@ a cache that boots off the least-recently-used item(s)
 - built with a combo of a hash map and a linked list (so 2 total linked lists?)
 - cached items are stored in a linked list
 - when a new item is found (or a cached item is reused), the item is moved to the end of the list
+- when the cache is full, the oldest items (at the beginning of the list) are removed
